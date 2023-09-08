@@ -143,7 +143,7 @@ export default class News extends Component {
   render() {
     return (
       <>
-        <h1 className="text-center my-3">
+        <h1 className="text-center"  style={{marginTop:'80px'}}>
           NewsWala - Top {this.capital(this.props.category)} Headline{" "}
         </h1>
         {this.state.loading && <Spinner />}
